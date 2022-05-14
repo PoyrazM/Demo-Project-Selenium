@@ -1,0 +1,19 @@
+<suite name ="Shopping" parallel="tests" thread-count="2">
+    <test name="AddToCardWithChrome">
+        <parameter name="browser" value="Chrome"></parameter>
+        <classes>
+            <class name="ShoppingDemoSiteTest">
+
+            </class>
+        </classes>
+    </test>
+
+    <test name="AddToCardWithEdge">
+        <parameter name="browser" value="Edge"></parameter>
+        <classes>
+            <class name="ShoppingDemoSiteTest">
+
+            </class>
+        </classes>
+    </test>
+</suite>
